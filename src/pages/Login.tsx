@@ -25,6 +25,13 @@ export default function Login({ onLogin }: LoginProps) {
         onSubmit={handleSubmit}
         className="bg-card p-8 rounded-md shadow-md w-96 space-y-6"
       >
+        <div className="flex flex-col items-center mb-2">
+          <img
+            src="/login-logo.png"
+            alt="Blink Logo"
+            className="w-16 h-16 rounded-2xl shadow-lg mb-4 bg-[#222] object-cover animate-fade-in"
+          />
+        </div>
         <h2 className="text-2xl font-bold text-primary text-center">Affiliate Tools Login</h2>
         <div>
           <Label htmlFor="email">Email</Label>
