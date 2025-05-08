@@ -27,8 +27,8 @@ export default function Login({ onLogin }: LoginProps) {
       >
         <div className="flex flex-col items-center mb-2">
           <img
-            src="/login-logo.png"
-            alt="Blink Logo"
+            src="/user-icon.png"
+            alt="User Icon"
             className="w-16 h-16 rounded-2xl shadow-lg mb-4 bg-[#222] object-cover animate-fade-in"
           />
         </div>
